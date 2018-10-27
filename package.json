@@ -1,0 +1,32 @@
+{
+    "name": "ezskin-notifier",
+    "version": "1.0.0",
+    "private": true,
+    "description": "",
+    "keywords": [
+        "crawler",
+        "spider",
+        "bot"
+    ],
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "Sin-Fong LYU <kingispeak@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kingispeak/ezskin-notifier.git"
+    },
+    "bugs": {
+        "url": "https://github.com/kingispeak/ezskin-notifier/issues"
+    },
+    "homepage": "https://github.com/kingispeak/ezskin-notifier#readme",
+    "license": "MIT",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.2",
+        "dotenv": "^6.1.0",
+        "log4js": "^3.0.6",
+        "nodemailer": "^4.6.8",
+        "request": "^2.83.0"
+    }
+}
